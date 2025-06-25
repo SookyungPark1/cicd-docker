@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
     @GetMapping("/hi")
     public String hi(){
-        return "hi   ^^";
+        return "hi please";
     }
 
 }
